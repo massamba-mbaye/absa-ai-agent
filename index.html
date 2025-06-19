@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NE5358C78L"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-NE5358C78L');
+    </script>
+    <!-- END Google tag (gtag.js) -->
+
+    <!-- Hotjar Tracking Code for Absa -->
+    <script>
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:5315692,hjsv:6};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
+    <!-- END Hotjar Tracking Code for Absa -->
+
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"/>
+    <link rel="icon" type="image/x-icon" href="favicon.png" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>Absa - Polaris Asso</title>
+    <meta name="description" content="Absa, ton agent conversationnel dédié à l'écoute et au signalement du cyberharcèlement et des violences en ligne. Échange en toute confiance sur le revenge porn, l'islamophobie, la haine raciale et d'autres formes de cyberviolence.">
+  </head>
+  <body>
+    <header>
+      <img
+        src="img/logo-absa.png"
+        alt="Logo de Polaris Asso"
+        class="logo"
+      />
+      <h2 class="text-entete">
+        Absa, ton agent conversationnel dédié à l'écoute et au signalement du cyberharcèlement et des violences en ligne. Échange en toute confiance sur le revenge porn, l'islamophobie, la haine raciale et d'autres formes de cyberviolence.
+      </h2>
+    </header>
+
+    <div id="chatbox"></div>
+
+    <form id="chatForm" autocomplete="off">
+      <input
+        type="text"
+        id="userInput"
+        placeholder="Écrivez un message..."
+        autocomplete="off"
+        required
+      />
+      <button type="submit">Envoyer</button>
+    </form>
+
+    <!-- Ajout de la bibliothèque Marked.js -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="script/script.js"></script>
+  </body>
+</html>
